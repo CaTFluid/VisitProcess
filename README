@@ -1,0 +1,17 @@
+// created 12/201/2013; Version 5: we may also deal with continuous file id, if we specify the first id = -1
+// created 09/05/2013; Version 4:  we also calculate the distance of that family of springs at each level
+	1) level is defined by initial level: (0- nZ);
+	2) we only care about the distance:
+        3) family id: 0-> raidal (for int); 1-> circular; 2-> axial
+	4) apply to uniform mesh size
+
+
+
+
+// created 05/23/2013, to read/dump multiple layers of one structure into the file
+// created 04/05/2013, to read VTK file with all the information and dump to the *pts
+// input: what part of node we should keep: start_id, end_id;
+	  What is the connectivity: mesh_info: aixal_node, circular_node (by default, we only keep 1 layer)
+// output: *.vtk -> *_inner.pts(points of inner layer)  and *_inner.area(points of outer layer)
+	for file
+// notice we use #to give comment follow that script

@@ -1,0 +1,9 @@
+ 0  0  1 3	# node_id info: id_start(0, unless LMouter: 64320), id_end(if 0 =num_axial*num_circ-1+id_start), fcn_ptr(default 0), ver_no (!! added 05/23/2013) version_3: means multiple layer with list of frames
+ 601  64 3 	# mesh_info: num_axial; num_circ; num_layers
+ IM_t  ./result/IM_innert  #Input:IM_t012.vtk, output: IM_innert012.pts, IM_innert012.area ; notice you must create the directory to use it
+ 1    64	# output info: file numbers, num. pts per row in each file (default = num_circ (64 or 128))
+ 34		# 2 files: notice t000, t116
+ 1 1 1     # bool is: IsDumpRad_spring  IsDumpCirc_spring  IsDumpAxial_spring
+ 
+ 
+ 
